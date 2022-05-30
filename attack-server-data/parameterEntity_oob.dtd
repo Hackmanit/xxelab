@@ -1,0 +1,3 @@
+<!ENTITY % file "test OOB XXE">
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://localhost/?%file;'>">
+%all;
